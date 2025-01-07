@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.outer-con {border: 3px solid black;max-width: 1000px;margin-left: auto;margin-right: auto;overflow: auto;}
+
+header {background-color: darkturquoise;position:relative;}
+
+#logo-s { max-width: 150px;height: auto;position: absolute;top: 10px;left: 8px;}
+
+#logo-titel {font-size: 75px;text-align: center;margin-left: 0;font-family:'comic neue';letter-spacing: 3px;padding-left: 150px;}
+
+nav {text-align: center;background-color:darkblue ;border-top: 2px solid darkred;}
+
+nav ul li {display: inline;font-family:"comic neue" ;font-size: 25px ;padding-right: 34px;}
+
+nav ul li:hover {color: hotpink;}
+
+a { color: inherit;text-decoration: inherit;}
+
+a:visited {color: inherit;text-decoration: inherit;}
+
+.intro-con {background-color: cornflowerblue;overflow: auto;}
+
+.img-con {max-width: 600px;margin: 0;float: left;padding: 3%;}
+
+.intro-img  {max-width: 100%;height: auto;border-radius: 50%;border: 4px solid black;box-sizing: border-box;}
+
+.intro-text {float: left;margin: 0%;padding: 3%;}
+
+footer {background-color: darkturquoise;}
+
+footer p {margin: 0;text-align: center;padding-top:12px ;padding-bottom: 12px;border-top:2px solid black ;background-color: darkturquoise;}
+
+.luv {padding-left: 10px;font-size: 8px;padding-top: 20px;margin-top: 0;}
+
+
+
+/* gallery start */
+
+.gallery-con {background-color: cornflowerblue;overflow: auto;}
+
+.quadro-img {width: 25%;height: 180px;float: left;padding: 2px;box-sizing: border-box;outline: 2px solid black;outline-offset: -3px;}
