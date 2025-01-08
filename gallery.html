@@ -25,16 +25,47 @@
 
         <article class="gallery-con">
 
+            <div class="thumb-con">
+                <img src="./images/p3.jpg" class="quadro-img" alt="power stance" onclick="openmodal(this)">
+            </div>
+
+            <div class="thumb-con">
+                <img src="./images/p4.jpg" class="quadro-img" alt="oh shit a white woman" onclick="openmodal(this)">
+            </div>
+
+            <div class="thumb-con">
+                <img src="./images/p5.jpg" class="quadro-img" alt="i pull up to yo block" onclick="openmodal(this)">
+            </div>
+
+            <div class="thumb-con">
+                <img src="./images/p6.jpg" class="quadro-img" alt="ola" onclick="openmodal(this)">
+            </div>
+<!--  
             <a href="./images/p3.jpg"><img class="quadro-img" src="./images/p3.jpg" alt="power stance"></a>
 
             <a href="./images/p4.jpg"><img class="quadro-img" src="./images/p4.jpg" alt="oh shit a white woman"></a>
             <a href="./images/p5.jpg"><img class="quadro-img" src="./images/p5.jpg" alt="i pull up to yo block"></a>
             <a href="./images/p6.jpg"><img class="quadro-img" src="./images/p6.jpg" alt="ola"></a>
+ -->
+            <div id="modal1" class="modal" onclick="this.style.display='none'">
+                <span class="close">&times;</span>
+                <div class="modal-cont">
+                    <img id="fullsize-img" alt="squrter">
+                </div>
+            </div>
+
         </article>
     <footer>
         <p>site created by the guy watching you sleep</p><p class="luv">luv u</p>
     </footer>
     </main>
 </body>
+
+<script>
+    function openmodal(item) {
+       document.getElementById("fullsize-img").src = item.src
+       document.getElementById("modal1").style.display  = "block";
+    }
+</script>
 
 </html>
